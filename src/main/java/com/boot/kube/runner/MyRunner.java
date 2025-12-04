@@ -12,8 +12,8 @@ public class MyRunner implements ApplicationRunner {
 
     @Override
     public void run(ApplicationArguments args) throws Exception {
-        logger.info(">>>>>> 버전1 Spring Boot K8s Deployment Rollout Test !! ### ###");
-//        logger.info(">>>>>> 버전2 Spring Boot K8s Deployment Rollout Test !! ### ###");
+//        logger.info(">>>>>> 버전1 Spring Boot K8s Deployment Rollout Test !! ### ###");
+        logger.info(">>>>>> 버전2 tag:0.3 Spring Boot K8s Deployment Rollout Test !! ### ###");
 //        logger.info(">>>>>> Ver 버전3 Spring Boot K8s Deployment Rollout Test !! ### ###");
     }
 }
